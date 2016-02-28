@@ -24,8 +24,6 @@
 #include <stdbool.h>
 #include <stdint.h>
 
-#include <bluetooth/internal/att-types.h>
-
 struct bt_att;
 
 struct bt_att *bt_att_new(int fd, bool ext_signed);
