@@ -1,0 +1,10 @@
+module CBlueZInternal [system] {
+    header "/usr/include/bluetooth/internal/att-types.h"
+    header "/usr/include/bluetooth/internal/att.h"
+    header "/usr/include/bluetooth/internal/gatt-client.h"
+    header "/usr/include/bluetooth/internal/gatt-db.h"
+    header "/usr/include/bluetooth/internal/gatt-helpers.h"
+    header "/usr/include/bluetooth/internal/gatt-server.h"
+    link "bluetooth"
+    export *
+}
